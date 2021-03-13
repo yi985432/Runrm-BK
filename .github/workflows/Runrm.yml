@@ -16,7 +16,5 @@ jobs:
     steps:
     - name: 克隆项目
       run: sudo git clone https://github.com/yi985432/Runrm-BK
-    - name: 检测网站是否被删除
-      run: sudo cd ~/work/Runrm-BK/Runrm-BK/Runrm-BK & sh start.sh
     
     
