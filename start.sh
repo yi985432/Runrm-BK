@@ -6,7 +6,7 @@ ftp="23.224.53.118"
 name="s4947674"
 password="ztAM99mhIQ"
 #**************************************************
-if [ ! -f ./*.7z ];then
+if [ ! -f ./*.web.zip ];then
 echo "没有源码！"
 exit
 else
@@ -19,7 +19,7 @@ cd work
 if [ ! -d ./wwwroot/usr ];then
 echo "未检测到usr文件夹！正在恢复！"
 rm -rf wwwroot
-7z x ../*.7z -d .
+7z x ../*.web.zip -d .
 else
 echo "已检测到usr文件夹，不进行任何操作。"
 fi
